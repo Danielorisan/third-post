@@ -1,0 +1,67 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.one{
+    display: flex;
+    justify-content: space-around;
+}
+.two{
+    display: flex;
+    justify-content: space-between;
+}
+.three{
+    font-size: 40px;
+    font-weight: 900;
+    color: hsl(300, 43%, 22%);
+}
+.four{
+    width: 25%;
+}
+#five{
+    color:  hsl(333, 80%, 67%);
+    font-size: 13px;
+    font-weight: 100;
+}
+#six{
+    padding: 10px 20px 10px 20px;
+    border-radius: 2mm;
+    background-color: hsl(300, 24%, 96%);
+    font-size: 14px;
+    font-weight: 700;
+}
+.seven{
+    margin-top: 3%;
+}
+.ten{
+    width: 8%;
+    border-radius: 10mm;
+}
+.go {
+    width: 30%;
+    padding: 30px 15px 30px 15px;
+    border-radius: 5mm;
+    background-color: hsl(300, 43%, 22%);
+    color: aliceblue;
+    margin-top: 2%;
+}
+
+@media (max-width: 760px) {
+    .four{
+        width: 100%;
+    }
+    .one{
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .two{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .go {
+        width: 100%;
+       
+    }
+}
